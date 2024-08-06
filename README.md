@@ -5,17 +5,19 @@ Simple desktop app for basic PDF processing
 
 ### Pre-requisite
 * `python3` version 10 or above. Install python in your system
-* `pysimplegui` Install using `pip install pysimplegui`
-* `pypdf` Install using `pip install pypdf`
+* `freesimplegui` Install using `pip install freesimplegui`
+* `pymupdf` Install using `pip install pymupdf`
 
 ## Start using with python
 * Clone the repository
 * Run as python module
 
-  `python -m pdfprof`
+  `python app.py`
 
   This opens up a GUI where you can select the PDF file using the browse button.
 
-  If the file is encrypted, it will show a lock icon.
+  If the file is encrypted, it will show input box to enter the password and decrypted file name.
 
-  If you need to decrypt the encrypted file, type-in the password in the text box provided
+  If you need to decrypt the encrypted file, type-in the password in the text box provided and click decrypt.
+
+  To preview an unencrypted or a decrypted file, select the file using the browse button and click on Preview button.
