@@ -1,4 +1,7 @@
-from pdfprof.gui import Window
+from pdfprof.main_window import MainWindow
 
 if __name__ == '__main__':
-    window = Window()
+    try:
+        window = MainWindow()
+    except Exception as e:
+        print(e)
