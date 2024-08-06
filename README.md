@@ -5,8 +5,7 @@ Simple desktop app for basic PDF processing
 
 ### Pre-requisite
 * `python3` version 10 or above. Install python in your system
-* `freesimplegui` Install using `pip install freesimplegui`
-* `pymupdf` Install using `pip install pymupdf`
+* `pip3 install -r requirements.txt` to install dependent packages
 
 ## Start using with python
 * Clone the repository
